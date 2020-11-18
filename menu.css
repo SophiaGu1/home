@@ -1,0 +1,192 @@
+/* css for entire page, want to clear the margins and paddings already there */
+*
+	{
+	margin:0;
+	padding:0;
+	}
+
+/*set the background colour*/
+body
+	{
+	background-color:#f7f6f4;
+	margin:0;
+	}
+
+/*for my page header*/
+.header {
+	background-color:#3f62b9;
+}
+
+#navheader
+	{
+	font-family: 'Zilla Slab', serif;
+	font-size:30px;
+	color: beige;
+	margin:0;
+	padding:10px;
+	padding-left:15px;
+	width:100%;
+	text-align:left;
+	}
+
+/*line to separate the navbar from content*/
+#headerline
+	{
+	border-bottom-color:transparent;
+	border-top-color:#f9eee6;
+	border-top-width:3px;
+	margin:0;
+	}
+
+/*navbar list, set the position at the top of the page instead of the side*/
+ul
+	{
+	position:absolute;
+	top:0;
+	width:100%;
+	}
+
+/*formatted the navbar so the content in the list are display horizontally*/
+ul li
+	{
+	list-style:none;
+	display:inline-block;
+	float:right;
+	line-height:40px;
+	padding-top:10px;
+	}
+
+
+/*set the font styles and padding for navbar*/
+ul li a
+	{
+	text-decoration:none;
+	font-size:15px;
+	font-family:'Zilla Slab', serif;
+	color: white;
+	padding:0 20px;
+	}
+
+/*a transition when user hovers above the navbar*/
+ul li a:hover
+	{
+	color:gray;
+	transition:0.3s;
+	}
+
+/*display the main menu picture with a shadow+expansion transition when hovered*/
+.img
+	{
+	width:50%;
+	height:50%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	border:5px solid #e89b1a;
+	padding:2px;
+	transition: width 0.5s, height 0.5s, box-shadow 0.5s;
+	}
+	
+.img:hover
+	{
+	width:53%;
+	height:53%;
+	box-shadow:10px 10px 5px gray;
+	}
+
+/*formatting all the headers and paragraphs for all the pages*/
+h2
+	{
+	margin-left:20px;
+	margin-bottom:10px;
+	font-family:'Zilla Slab', serif;
+	text-decoration:underline;
+	}
+	
+p
+	{
+	font-family: 'Antic Slab', serif;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:10px;
+	font-size:20px;
+	}
+
+/* styling the footer that also contains the to top button*/
+.footer
+	{
+	width:100%;
+	height:80px;
+	background-color:#f7f6f4;
+	text-align:center;
+	}
+
+#totop
+	{
+	font-family:'Zilla Slab', serif;
+	color:black;
+	transition:color 0.5s;
+	text-align:bottom;
+	}
+/*when hovered font turns gray*/
+#totop:hover
+	{
+	color:gray;
+	}
+
+/*iframe located in the background webpage formatting*/
+.iframe
+	{
+	width:38%;
+	display:block;
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+/*external absolute link for further info on competitive swimming*/
+#swimlink a
+	{
+	color:black;
+	}
+	
+#swimlink a:hover
+	{
+	color:gray;
+	}
+
+/*classes for displaying images with caption in content pages*/
+.imgdisplaybottom
+	{
+	width:80%;
+	border:0;
+	padding:5px;
+	font-family:'Zilla Slab', serif;
+	}
+	
+.imgdisplaybottom td
+	{
+	text-align:center;
+	}
+	
+.imgsize
+	{
+	width:80%;
+	margin:10px;
+	}
+	
+/*class that puts image on the left of the text also keep all of the imgs at a size of 100px*/
+.left
+	{
+	float:left;
+	padding:0 8px 0 8px;
+	}
+	
+/*class that puts image on the right of the text also keep all of the imgs at a size of 100px*/
+.right
+	{
+	float:right;
+	padding:0 8px 0 8px;
+	}
+
